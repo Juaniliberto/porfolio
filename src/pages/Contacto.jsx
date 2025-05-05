@@ -32,7 +32,7 @@ function ContactForm() {
         <form ref={formRef} onSubmit={sendEmail}>
             <input className="input" type="text" name="name" id="nombre" placeholder="Nombre" required/>
             <input className="input" type="text" name="email" id="email" placeholder="Email" required/>
-            <textarea className="input" rows={8} name="messege" id="mensaje" placeholder="Mensaje" required></textarea>
+            <textarea className="input" rows={8} name="message" id="mensaje" placeholder="Mensaje" required></textarea>
             <input className="boton-enviar" type="submit" name="submit" id="submit" placeholder="Enviar"/>
         </form>
     )
