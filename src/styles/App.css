@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    position: relative;
+    background-color: white;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #68a5ff;
+    clip-path: polygon(0 0, 0 20%, 100% 100%, 35% 100%);
+    z-index: -1;
+}
