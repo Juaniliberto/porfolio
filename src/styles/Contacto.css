@@ -105,6 +105,10 @@
     gap: 30px;
   }
 
+  .contact-text {
+    margin-bottom: 0;
+  }
+
   .contact-text h2 {
     font-size: 28px;
     text-align: center;
