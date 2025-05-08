@@ -29,3 +29,22 @@
     padding-top: 20px;
   }
   
+  @media (max-width: 768px) {
+    .proyectos {
+      padding: 2rem 1rem;
+    }
+  
+    .proyectos-title {
+      font-size: 2rem;
+    }
+  
+    .proyectos-subtitulo {
+      font-size: 1rem;
+    }
+  
+    .mis-proyectos {
+      gap: 2rem;
+      padding-top: 10px;
+    }
+  }
+  

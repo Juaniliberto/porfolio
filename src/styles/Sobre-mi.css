@@ -66,3 +66,44 @@
     color: #00026e94; /* o el color principal de tu paleta */
 }
 
+@media (max-width: 768px) {
+    .sobre-mi-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+    }
+  
+    .sobre-mi-txt {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .sobre-mi-txt p {
+      font-size: 16px;
+      text-align: left;
+    }
+  
+    .sobre-mi-habilidades {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .iconos-habilidades {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .habilidad {
+      font-size: 30px;
+    }
+  
+    .sobre-mi-title {
+      font-size: 28px;
+    }
+  
+    .habilidades-title {
+      font-size: 20px;
+    }
+  }

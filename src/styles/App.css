@@ -15,3 +15,10 @@ body::before {
     clip-path: polygon(0 0, 0 20%, 100% 100%, 35% 100%);
     z-index: -1;
 }
+
+@media (max-width: 768px) {
+    body::before {
+      display: none;
+    }
+  }
+  

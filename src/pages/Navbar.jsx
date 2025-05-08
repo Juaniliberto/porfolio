@@ -1,6 +1,9 @@
 import '../styles/Navbar.css'
+import { useState } from 'react';
 
 function Navbar() {
+    const [menuAbierto, setMenuAbierto] = useState(false);
+
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
         if (section) {
@@ -14,7 +17,13 @@ function Navbar() {
     return(
         <nav className='navbar'>
             <span className='nav-name'>Juan Ignacio <span>Liberto</span></span>
-            <div className='nav-links'>
+            <button 
+                className='boton-hamburguesa' 
+                onClick={() => setMenuAbierto(!menuAbierto)}
+            >
+                ☰
+            </button>
+            <div className= {`nav-links ${menuAbierto ? 'mostrar' : ''}`}>
                 <button className='nav-btn' onClick={() => scrollToSection("inicio")}>Inicio</button>
                 <button className='nav-btn' onClick={() => scrollToSection("sobre-mi")}>Sobre Mi</button>
                 <button className='nav-btn' onClick={() => scrollToSection("proyecto")}>Proyectos</button>
