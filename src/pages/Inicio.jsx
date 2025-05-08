@@ -15,8 +15,8 @@ function Inicio() {
     return (
         <section id = "inicio" className="home-section">
             <div className="home-content">
-                <h1>Hola, soy Juan Ignacio Liberto</h1>
-                <h2>Desarrollador Frontend con React y Backend con Java y Python</h2>
+                <h1 className='solo-desktop'>Hola, soy Juan Ignacio Liberto</h1>
+                <h2>Desarrollador Full-Stack</h2>
                 <p>Estudiante de Ingenieria en Informatica, apasionado por la programacion y el desarrollo, la creacion de soluciones simples y funcionales, y en constante aprendizaje.</p>
                 <button className="home-btn" onClick={() => scrollToSection("proyecto")}>Ver mis proyectos</button>
             </div>
