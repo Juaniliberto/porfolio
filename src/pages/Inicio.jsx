@@ -17,7 +17,7 @@ function Inicio() {
             <div className="home-content">
                 <h1 className='solo-desktop'>Hola, soy Juan Ignacio Liberto</h1>
                 <h2>Desarrollador Full-Stack</h2>
-                <p>Estudiante de Ingenieria en Informatica, apasionado por la programacion y el desarrollo, la creacion de soluciones simples y funcionales, y en constante aprendizaje.</p>
+                <p>Estudiante de Ingeniería en Informática, apasionado por la programación y el desarrollo, la creación de soluciones simples y funcionales, y en constante aprendizaje.</p>
                 <button className="home-btn" onClick={() => scrollToSection("proyecto")}>Ver mis proyectos</button>
             </div>
             <div className="home-img-container">
